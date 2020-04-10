@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: auto;
   background-color: rgba(14, 11, 10, 0.8);
   overflow: hidden;
   position: relative;
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-item {
   width: 100%;
-  height: 70vh;
+  height: auto;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
