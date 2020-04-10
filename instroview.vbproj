@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{1ABAC837-BAD1-43D1-AA2F-2765D7C4A88E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>instroview</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\instroview.in\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://localhost:8080/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include=".htaccess" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include=".vs\www.instroview.in\config\applicationhost.config" />
+    <None Include=".vs\www.instroview.in\v16\.suo" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="assets\vendor\boxicons\fonts\boxicons.eot" />
+    <None Include="assets\vendor\boxicons\fonts\boxicons.ttf" />
+    <None Include="assets\vendor\boxicons\fonts\boxicons.woff" />
+    <None Include="assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <None Include="assets\vendor\icofont\fonts\icofont.woff" />
+    <None Include="assets\vendor\icofont\fonts\icofont.woff2" />
+    <None Include="assets\vendor\jquery\jquery.min.map" />
+    <None Include="assets\vendor\owl.carousel\LICENSE" />
+    <None Include="assets\vendor\owl.carousel\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\img\about2.jpg" />
+    <Content Include="assets\img\about3.jpg" />
+    <Content Include="assets\img\clients\client-1.jpg" />
+    <Content Include="assets\img\clients\client-1.png" />
+    <Content Include="assets\img\clients\client-2.png" />
+    <Content Include="assets\img\clients\client-3.png" />
+    <Content Include="assets\img\clients\client-4.png" />
+    <Content Include="assets\img\clients\client-5.png" />
+    <Content Include="assets\img\clients\client-6.png" />
+    <Content Include="assets\img\clients\client-7.png" />
+    <Content Include="assets\img\clients\client-8.png" />
+    <Content Include="assets\img\favicon.png" />
+    <Content Include="assets\img\index3.jpg" />
+    <Content Include="assets\img\photo-1510086889881-85419a73b82b.jpg" />
+    <Content Include="assets\img\photo-1575960511054-ec6063761606.jpg" />
+    <Content Include="assets\img\product1.jpg" />
+    <Content Include="assets\img\product2.png" />
+    <Content Include="assets\img\product3.jpg" />
+    <Content Include="assets\img\slide\index1.jpg" />
+    <Content Include="assets\img\slide\index2.jpg" />
+    <Content Include="assets\img\slide\index3.jpg" />
+    <Content Include="assets\img\slide\orginal image\index1.jpg" />
+    <Content Include="assets\img\slide\orginal image\index2.jpg" />
+    <Content Include="assets\img\slide\orginal image\index3.jpg" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\vendor\animate.css\animate.css" />
+    <Content Include="assets\vendor\animate.css\animate.min.css" />
+    <Content Include="assets\vendor\aos\aos.css" />
+    <Content Include="assets\vendor\aos\aos.js" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\vendor\boxicons\css\animations.css" />
+    <Content Include="assets\vendor\boxicons\css\boxicons.css" />
+    <Content Include="assets\vendor\boxicons\css\boxicons.min.css" />
+    <Content Include="assets\vendor\boxicons\css\transformations.css" />
+    <Content Include="assets\vendor\boxicons\fonts\boxicons.svg" />
+    <Content Include="assets\vendor\icofont\icofont.min.css" />
+    <Content Include="assets\vendor\isotope-layout\isotope.pkgd.js" />
+    <Content Include="assets\vendor\isotope-layout\isotope.pkgd.min.js" />
+    <Content Include="assets\vendor\jquery-sticky\jquery.sticky.js" />
+    <Content Include="assets\vendor\jquery.easing\jquery.easing.min.js" />
+    <Content Include="assets\vendor\jquery\jquery.min.js" />
+    <Content Include="assets\vendor\owl.carousel\assets\ajax-loader.gif" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.carousel.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.carousel.min.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.theme.default.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.theme.default.min.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.theme.green.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.theme.green.min.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.video.play.png" />
+    <Content Include="assets\vendor\owl.carousel\owl.carousel.js" />
+    <Content Include="assets\vendor\owl.carousel\owl.carousel.min.js" />
+    <Content Include="assets\vendor\php-email-form\validate.js" />
+    <Content Include="assets\vendor\venobox\venobox.css" />
+    <Content Include="assets\vendor\venobox\venobox.js" />
+    <Content Include="assets\vendor\venobox\venobox.min.css" />
+    <Content Include="assets\vendor\venobox\venobox.min.js" />
+    <Content Include="assets\vendor\waypoints\jquery.waypoints.min.js" />
+    <Content Include="career.html" />
+    <Content Include="contact.html" />
+    <Content Include="forms\contact.php" />
+    <Content Include="forms\Readme.txt" />
+    <Content Include="google48968952e050a3b7.html" />
+    <Content Include="index.html" />
+    <Content Include="product.html" />
+    <Content Include="service.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\instroview\v16\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
