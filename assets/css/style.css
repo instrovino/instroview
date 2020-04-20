@@ -838,7 +838,8 @@ section {
 }
 
 .index_row {
- height:250px;
+ min-height:250px;
+ max-height:500px;
  width:50%;
 
 }
