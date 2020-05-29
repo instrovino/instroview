@@ -8,48 +8,53 @@
 
 
 <url>
-  <loc>http://instroview.in/</loc>
-  <lastmod>2020-04-25T19:19:35+00:00</lastmod>
+  <loc>https://instroview.in/</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://instroview.in/index</loc>
-  <lastmod>2020-04-25T19:19:35+00:00</lastmod>
+  <loc>https://instroview.in/index</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://instroview.in/about</loc>
-  <lastmod>2020-04-25T19:19:35+00:00</lastmod>
+  <loc>https://instroview.in/about</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://instroview.in/service</loc>
-  <lastmod>2020-04-25T19:19:35+00:00</lastmod>
+  <loc>https://instroview.in/service</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://instroview.in/service.html</loc>
-  <lastmod>2020-04-25T19:19:35+00:00</lastmod>
+  <loc>https://instroview.in/service.html</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://instroview.in/career</loc>
-  <lastmod>2020-04-25T19:19:35+00:00</lastmod>
+  <loc>https://instroview.in/product</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://instroview.in/contact</loc>
-  <lastmod>2020-04-25T19:19:35+00:00</lastmod>
+  <loc>https://instroview.in/career</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://instroview.in/career.html</loc>
-  <lastmod>2020-04-25T19:19:35+00:00</lastmod>
+  <loc>https://instroview.in/contact</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://instroview.in/index.html</loc>
-  <lastmod>2020-04-25T19:19:35+00:00</lastmod>
+  <loc>https://instroview.in/career.html</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instroview.in/index.html</loc>
+  <lastmod>2020-05-29T13:59:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
