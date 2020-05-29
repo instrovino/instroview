@@ -682,6 +682,20 @@ section {
   background: #faf9f8;
 }
 
+.services .epcc-box {
+  padding: 30px 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ebe6e4;
+  min-height: 300px;
+  position: relative;
+  background: #faf9f8;
+  text-align: justify;
+}
+.services .epcc-box .h4:hover {
+color: #18d26e;
+
+}
 .services .icon {
   position: absolute;
   top: -36px;
@@ -840,14 +854,38 @@ section {
 /*--------------------------------------------------------------
 # tabs
 --------------------------------------------------------------*/
+.product{
+ position:relative; 
+ padding-left: 30px;
+ background-color: lightcyan;
+}
+.main_title{
+  text-align: center;
+  color:   #ffffff  ;
+  min-height: 180px;
+  background-color:   #0757b7  ;
+  padding-top: 50px;
+  font-weight: 900;
+}
+.product_row {
+  box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.5); 
+  margin: 10px;
+  background-color: #ededeb ;
+  min-height: 700PX;
+}
 
 .index_row {
  min-height:250px;
  max-height:1000px;
  width:50%;
- min-width:365px;
+ min-width:376px;;
 }
 
+.service_page{
+  box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+  min-height: 1100px;
+}
 .service_row {
  min-height:80px;
  width:25%;
