@@ -224,6 +224,15 @@
     <script src="Scripts/jquery-3.3.1.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/scrolling-nav.js"></script>
+    <script>
+$(window).on("load",function()
+{
+    if($('.loader-container').length)
+    {
+        $('.loader-container').delay(2000).fadeOut(500)
+    }
+
+});
 </body>
 </html>
 
