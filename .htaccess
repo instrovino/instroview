@@ -6,9 +6,6 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.instroview.in/$1 [R,L]
 
-RewriteCond %{HTTP_HOST} ^instroview.in [NC]
-RewriteRule ^(.*)$ https://www.instroview.in/$1 [L,R=301]
-
 # Canonical https/www
 <IfModule mod_rewrite.c>
 	RewriteCond %{HTTPS} off [OR]
