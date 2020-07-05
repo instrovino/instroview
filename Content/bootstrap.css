@@ -6101,8 +6101,6 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%; 
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .carousel-inner::after {
