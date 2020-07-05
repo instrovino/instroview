@@ -3,6 +3,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
-RewriteCond %{HTTP_HOST} ^instroview.in [NC]
-RewriteRule ^(.*)$ http://www.instroview.in/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^https://instroview.in[nc]
+RewriteRule ^(.*)$ http://www.https://instroview.in/$1 [r=301,nc]
 
