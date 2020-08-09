@@ -138,6 +138,19 @@ textarea {
     }
 }
 
+
+.main-heading-service{
+    border: 2px solid white;
+    border-radius: 8px;
+    min-width: 25%;
+    padding: 25px 10px 10px 5px;
+}
+
+.main-heading-service li a{
+    color:white;
+    padding-right: 10px;
+}
+
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
