@@ -26,11 +26,8 @@ textarea {
         padding: 0;
     }
 }
-
     .after-loop {
         padding: 3rem 0 5rem;
-        background-color: #1d9d74;
-        border-top: 3px solid darkorange;
     }
 
     .after-loop .index-about{
@@ -90,7 +87,7 @@ textarea {
     }
 
     .after-loop .card-snippets {
-        background-color: #e0a904
+        background-color: #e01e04
     }
 
     .after-loop .card-guides {
