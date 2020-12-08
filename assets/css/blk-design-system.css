@@ -13685,7 +13685,7 @@ img {
   padding: 0.9375rem;
   width: 100%;
   z-index: 1050;
-  background: #e14eca;
+  background: #684d85;
 }
 
 .navbar .photo {
@@ -20373,9 +20373,9 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 .text-on-back {
   position: relative;
   z-index: 1;
-  font-size: 9.5em;
+  font-size: 3em;
   margin-left: -4px;
-  font-weight: 900;
+  font-weight: 600;
   color: rgba(255, 255, 255, 0.2) !important;
 }
 
