@@ -302,6 +302,11 @@
 /******* google font ****/
 @import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
 
+.service{
+    margin-top: 65px;
+
+}
+
 .bg-service{
   padding-top: 50px;
   min-height: 250px;
@@ -313,7 +318,6 @@
     position: relative;
     padding: 10px 15px 80px 10px;
     background-color:#f8c471 ;
-
 }
 .container
 {
@@ -589,13 +593,8 @@
 
 
 /*--------------------------------------------------------------
-# Project
+# CCTV
 ----------------------------------------------------*/
-
-.cctv{
-    margin-top: 65px;
-}
-
 .bs-docs-header{
     position:relative;padding:30px 15px;
     color:#cdbfe3;text-align:center;
