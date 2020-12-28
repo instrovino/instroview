@@ -295,7 +295,7 @@ input[type=checkbox]:checked + div + div .stage_inner__right .link {
   transition: all 0.7s 0.3s cubic-bezier(0.5, 0.005, 0.075, 0.985);
   width: 50%;
 }
-.stage_inner__centerbox .arrow label {
+.stage_inner__centerbox .arrow a {
   position: absolute;
   background: rgba(0, 0, 0, 0.2392156863);
   right: 0;
@@ -400,12 +400,11 @@ input[type=checkbox]:checked + div + div .stage_inner__right .link {
   width: 245px;
 }
 .stage_inner__right .link {
+  margin-top: 20px;
   clear: both;
   opacity: 1;
-  padding: 0px 30px 20px 20px;
-  width: 220px;
-  transition: all 0.25s;
-  width: 245px;
+  padding: 0px 20px 20px 20px;
+ transition: all 0.25s;
   position: relative;
   left: 0;
   float: right;
@@ -517,3 +516,40 @@ input[type=checkbox]:checked + div + div .stage_inner__right .link {
 .stage_inner__footer i:hover {
   color: var(--pink);
 }
+
+.stage_inner__left{
+  float: left;
+  width: 22%;
+  height: 100%;
+  background: white;
+  transition: all 0.7s 0.3s cubic-bezier(0.5, 0.005, 0.075, 0.985);
+}
+.stage_inner__left h2{
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  background: var(--pink);
+  border: none;
+  margin: 0;
+  width: 100%;
+  outline: none;
+  float: right;
+  padding: 30px;
+  transition: all 0s 0s cubic-bezier(0.5, 0.005, 0.075, 0.985) !important;
+  color: white;
+  font-weight: 700;
+  min-width: 250px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }

@@ -20251,7 +20251,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 }
 
 .card .card-body .card-title {
-  color: #ffffff;
+  color: red;
   text-transform: inherit;
   font-weight: 300;
   margin-bottom: .75rem;
