@@ -1,0 +1,141 @@
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    height: auto;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .custom_nav-container .navbar-toggler {
+    margin-bottom: 15px;
+  }
+
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    padding: 15px 25px;
+    margin: 5px 0;
+  }
+
+  .custom_nav-container.navbar-expand-lg .form-inline {
+    justify-content: center;
+  }
+
+  .hero_area .top_nav {
+    display: none;
+  }
+
+  .custom_nav-container.navbar-expand-lg {
+    padding-top: 10px;
+    align-items: center;
+  }
+
+  .slider_section {
+    padding: 45px 0 150px 0;
+  }
+
+  .sub_page .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider_section ol.carousel-indicators {
+    justify-content: center;
+  }
+
+  .slider_section {
+    text-align: center;
+  }
+
+  .slider_section .img-box {
+    margin-top: 35px;
+  }
+
+  .slider_section .detail-box .btn-box {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .about_section .heading_container {
+    margin-bottom: 0;
+  }
+
+  .about_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .service_section .service_container {
+    flex-wrap: wrap;
+  }
+
+  .service_section .service_container .box.b1,
+  .service_section .service_container .box.b2,
+  .service_section .service_container .box.b3 {
+    transform: none;
+    margin-top: 45px;
+    flex-basis: 100%;
+  }
+
+  .service_section {
+    margin-bottom: 0;
+    padding-bottom: 75px;
+  }
+
+  .metal_section {
+    padding: 0;
+  }
+
+  .metal_section .detail-box {
+    text-align: center;
+  }
+
+  .contact_section .img-box {
+    margin-top: 30px;
+  }
+
+  .info_section .row .col-md-3 {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .info_section .info_logo {
+    align-items: center;
+  }
+
+  .info_section .info_form .social_box {
+    justify-content: center;
+  }
+
+  .info_section .info_form .social_box a {
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider_section .detail-box h1 {
+    font-size: 3.5rem;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 376px) {
+  .slider_section .detail-box h1 {
+    font-size: 3rem;
+    line-height: 45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}

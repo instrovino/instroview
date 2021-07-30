@@ -30,10 +30,6 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-
-
-
   <link rel="canonical" href="https://instroview.in/about" />
   <link rel=pingback href="https://instroview.in/about" />
   <link href="img/favicon.png" rel="icon">
@@ -67,6 +63,12 @@
         })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
             { 'GTM-5H64NN8': true });
   </script>
+  <!-- Anti-flicker snippet (recommended)  -->
+  <style>
+    .async-hide {
+        opacity: 0 !important
+    }
+</style>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -100,38 +102,16 @@
         <ul>
           <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="service.html">Service</a></li>
-          <li><a class="nav-link scrollto" href="product.html">Product</a></li>
-          <li class="dropdown"><a href="#"><span>Project</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Ongoing Project</a></li>
-              <li><a href="#">Completed Project</a></li>
-              <!--<li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>-->
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="client.html">Client</a></li>
+          <li><a class="nav-link scrollto" href="#">Service</a></li>
+          <li><a class="nav-link scrollto" href="#">Products</a></li>
+          <li><a class="nav-link scrollto" href="#">Client</a></li>
           <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+          <button type="button" class="btn btn-link">Login</button>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
     </div>
   </header><!-- End Header -->
-    <section id="hero" class="d-flex align-items-center" style="background-image: url(assets/img/about_bg.jpg)">
-    <div class="container" >
-      <br><br><br>
-      <h1>About Us</h1>
-    </div>
-  </section><!-- End Hero -->
   <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
@@ -244,28 +224,12 @@
     </section>--><!-- End Testimonials Section -->
   </main><!-- End #main -->
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Get News and Updates from Us</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-      <hr>
-    </div>
-
+  <footer id="footer" style="margin-bottom: -150px;">
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>BizLand<span>.</span></h3>
+            <h3>Instroview<span> .</span></h3>
             <p>
                 10th Cross St,<br>
                 Thiruvalluvar Nagar,<br>
@@ -276,7 +240,6 @@
               <strong>Email:</strong> info@instroview.in<br>
             </p>
           </div>
-
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -287,7 +250,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
             </ul>
           </div>
-
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
@@ -297,7 +259,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Skid Manufacturing</a></li>
             </ul>
           </div>
-
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
             <!--<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>-->

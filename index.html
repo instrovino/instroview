@@ -31,6 +31,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
 
   <link rel=pingback href="https://instroview.in/ " />
   <link rel="canonical" href="https://instroview.in/" />
@@ -65,6 +66,12 @@
       })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
           { 'GTM-5H64NN8': true });
   </script>
+  <!-- Anti-flicker snippet (recommended)  -->
+  <style>
+    .async-hide {
+        opacity: 0 !important
+    }
+</style>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -96,29 +103,13 @@
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="service.html">Service</a></li>
-          <li><a class="nav-link scrollto" href="product.html">Skid Package</a></li>
-          <li class="dropdown"><a href="#"><span>Project</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Ongoing Project</a></li>
-              <li><a href="#">Completed Project</a></li>
-              <!--<li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>-->
-            </ul>
-          </li>
+          <li><a class="nav-link scrollto" href="#">Service</a></li>
+          <li><a class="nav-link scrollto" href="#">Products</a></li>
           <li><a class="nav-link scrollto" href="#">Client</a></li>
           <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+          <button type="button" class="btn btn-link">Login</button>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -127,75 +118,125 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
-    </style>
-      <h1>Welcome to <span>Instroview</span></h1>
-      <h2>We are leading in EPC and Skid Manufacturing Company in India</h2>
-      <div class="d-flex">
-        <a href="about.html" class="btn-get-started scrollto">find more...</a>
-        <!--<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>-->
-      </div>
+          <div class="hero_area">
+      <section class=" slider_section ">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <h1>
+                        <span>
+                          Project and Engineering
+                        </span>
+                      </h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod magna aliqua. Ut enim ad minim veniam
+                      </p>
+                      <div class="btn-box">
+                        <a href="service.html" class="btn-1"> Read more </a>
+                        <a href="" class="btn-2">Get A Quote</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="img-box">
+                      <img src="" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <h1>
+                        Metal <br />
+                        <span>
+                          Factroy
+                        </span>
+                      </h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod magna aliqua. Ut enim ad minim veniam
+                      </p>
+                      <div class="btn-box">
+                        <a href="" class="btn-1"> Read more </a>
+                        <a href="" class="btn-2">Get A Quote</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="img-box">
+                      <img src="images/slider-img.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <h1>
+                        Metal
+                        <br />
+                        <span>
+                          Factroy
+                        </span>
+                      </h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod magna aliqua. Ut enim ad minim veniam
+                      </p>
+                      <div class="btn-box">
+                        <a href="" class="btn-1"> Read more </a>
+                        <a href="" class="btn-2">Get A Quote</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="img-box">
+                      <img src="images/slider-img.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container idicator_container">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- end slider section -->
+    </div>
     </div>
   </section><!-- End Hero -->
-  <main id="main">
-    <section class="container">
-      <header class="section background-white">
-        <div class="line text-center">        
-          <h1 class="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1">Be More with Less</h1>
-          <p class="margin-bottom-0 text-size-16 text-dark">Service We Provided for you.</p>
-        </div>  
-      </header>
-      <div class="background-white full-width row"> 
-        <div class="s-12 m-6 l-five">
-          <a class="image-with-hover-overlay image-hover-zoom" href="#" title="Portfolio Image">
-            <div class="image-hover-overlay background-primary"> 
-              <div class="image-hover-overlay-content text-center padding-2x">
-                <h3 class="text-white text-size-20 margin-bottom-10">Skid Manufacturing</h3>
-                <p class="text-white text-size-14 margin-bottom-20">One solutions for Design, Engineering & Supply of pre-fabricated skids for process Industries.</p>  
-              </div> 
-            </div> 
-            <img class="full-img" src="assets/img/portfolio/ng1.jpg" alt=""/>
-          </a>
-          <h5>Skid Package</h5>	
+  <div class="container" style="padding-top: 30px; background-color: white;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/img/index/welcome.jpg" alt="">
         </div>
-        <div class="s-12 m-6 l-five">
-          <a class="image-with-hover-overlay image-hover-zoom" href="#" title="Portfolio Image">
-            <div class="image-hover-overlay background-primary"> 
-              <div class="image-hover-overlay-content text-center padding-2x">
-                <h3 class="text-white text-size-20 margin-bottom-10">Electircal & Instrumentation</h3>
-                <p class="text-white text-size-14 margin-bottom-20">Supply, Erection, Installation and Testing Commissioning of Devices,Panels and Instrumentation</p>  
-              </div> 
-            </div> 
-            <img class="full-img" src="assets/img/portfolio/eandi.jpg" alt=""/>
-          </a>
-          <h5>Turnkey Project</h5>	
+        <div class="col-md-7">
+          <h2 class="border-bottom">Welcome to Instroview</h2>
+          <p style="align-items:justify;">INSTROVIEW GROUP a Chennai based engineering company has been started with the highly reliable as well as effectual engineers. 
+            INSTROVIEW provides customized service to fit customer needs in the field of electrical and instrumentation namely Testing, Calibration, Pre-Commissioning, Commissioning and Operation & Maintenance for all power and infrastructure.</p>
         </div>
-        <div class="s-12 m-6 l-five">
-          <a class="image-with-hover-overlay image-hover-zoom" href="#" title="Portfolio Image">
-            <div class="image-hover-overlay background-primary"> 
-              <div class="image-hover-overlay-content text-center padding-2x">
-                <h3 class="text-white text-size-20 margin-bottom-10">CCTV & Security System Integration</h3>
-                <p class="text-white text-size-14 margin-bottom-20">Supply, Installation, Commissioning and Integration with network system</p>  
-              </div> 
-            </div> 
-            <img class="full-img" src="assets/img/portfolio/cctv1.jpg" alt=""/>
-          </a>
-          <h5>Security & Surveillance</h5>
-        </div>
-        <div class="s-12 m-6 l-five">
-          <a class="image-with-hover-overlay image-hover-zoom" href="#" title="Portfolio Image">
-            <div class="image-hover-overlay background-primary"> 
-              <div class="image-hover-overlay-content text-center padding-2x">
-                <h3 class="text-white text-size-20 margin-bottom-10">Maintenance and Shutdown Project</h3>
-                <p class="text-white text-size-14 margin-bottom-20"> Perventive and Corrective Maintaenance activity and Device calibration.</p>                  
-              </div> 
-            </div> 
-            <img class="full-img" src="assets/img/portfolio/maintanence.jpg" alt=""/>
-          </a>	
-          <h5>Plant Maintenance</h5>
-        </div>
+        
       </div>
-
-    </section>
+  </div>
+  <div class="bg_white">
     <section class="container">
       <div class="container px-4 py-5">
         <h2 class="pb-2 border-bottom">Our Business Segments</h2>
@@ -226,8 +267,122 @@
             <p>Water & Waste Water Treatment</p>
           </div>
       </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
     </section>
-    <section class="container" style="margin-top: -50px;">
+    <section class="container"style="margin-top: -100px;">
+      <h2> Explore Our Service</h2>
+      <div class="row">
+        <div class="container_img col">
+          <img src="assets/img/index/service/equipment.jpg" alt="Avatar" class="image">
+          <div class="content"><h1>Equipment</h1></div>
+          <div class="overlay">
+            <div class="text">
+              <h4> Equipment</h4>
+              <ul>
+                <li>Separator</li>
+                <li>Knockout drum</li>
+                <li>Scrubber</li>
+                <li>DRS/MRS/DCS- Natural Gas Stream</li>
+                <li>Fuel Gas Conditioning Systems</li>
+                <li>Heater</li>
+                <li>Separators</li>
+                <li>DeSalters</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container_img col">
+          <img src="assets/img/index/service/electrical.jpg" alt="Avatar" class="image">
+          <div class="content"><h1>Electrical & Instrumentation</h1></div>
+          <div class="overlay">
+          <div class="text">
+            <h4> Electrical & Instrumentation</h4>
+            <ul>
+              <li>Electrical Services</li>
+              <li>E&amp;I Integrity services</li>
+              <li>Instrumentation &amp; Control Services</li>
+              <li>AMC / ARC Work</li>
+              <li>HVACR | Heating, Ventilation, Air-Conditioning, Refrigeration</li>
+              
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="container_img col">
+          <img src="assets/img/index/service/engineering.jpg" alt="Avatar" class="image">
+          <div class="content"><h1>Plant Engineering</h1></div>
+          <div class="overlay">
+            <div class="text">
+              <h4>Plant Engineering Service</h4>
+              <ul>
+                <li>Electrical Services</li>
+                <li>Mechanical Services</li>
+                <li>Civil/Structural Services</li>
+                <li>Instrumentation &amp; Control</li>
+                <li>Project Services</li>
+                <li>Contact Plant Engineering Services</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container_img col">
+          <img src="assets/img/index/service/maintenance.jpg" alt="Avatar" class="image">
+          <div class="content"><h1>CCTV Package</h1></div>
+          <div class="overlay">
+            <div class="text">
+              <h4> CCTV Package</h4>
+              <!--<ul>
+                <li>Separator</li>
+                <li>Knockout drum</li>
+                <li>Scrubber</li>
+                <li>DRS/MRS/DCS- Natural Gas Stream</li>
+                <li>Fuel Gas Conditioning Systems</li>
+                <li>Heater</li>
+                <li>Separators</li>
+                <li>DeSalters</li>
+              </ul>-->
+            </div>
+          </div>
+        </div>
+        <div class="container_img col">
+          <img src="assets/img/index/service/testing.jpg" alt="Avatar" class="image">
+          <div class="content"><h1>Equipment Testing & Commissioning</h1></div>
+          <div class="overlay">
+          <div class="text">
+            <h4> Equipment Testing & Commissioning</h4>
+            <!--<ul>
+              <li>Electrical Services</li>
+              <li>E&amp;I Integrity services</li>
+              <li>Instrumentation &amp; Control Services</li>
+              <li>HVACR | Heating, Ventilation, Air-Conditioning, Refrigeration</li>
+            </ul>-->
+          </div>
+        </div>
+        </div>
+        <div class="container_img col">
+          <img src="assets/img/index/service/consultant.jpg" alt="Avatar" class="image">
+          <div class="content"><h1>Consultant</h1></div>
+          <div class="overlay">
+            <div class="text">
+              <h4>Consultant</h4>
+              <!--<ul>
+                <li>Electrical Services</li>
+                <li>Mechanical Services</li>
+                <li>Civil/Structural Services</li>
+                <li>Instrumentation &amp; Control</li>
+                <li>Project Services</li>
+                <li>Contact Plant Engineering Services</li>
+              </ul>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container" style="margin-top: -100px; ">
       <div class="my-3 p-3 bg-body rounded shadow-sm">
         <h6 class="border-bottom pb-2 mb-0">On Going Project</h6>
         <div class="d-flex text-muted pt-3">
@@ -284,15 +439,15 @@
       </div>
       </div>
     </section><!-- testmonials -->
+  </div>  
     <div class="clearfix"></div>
-  </main><!-- End #main -->
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <footer id="footer" style="margin-bottom: -150px;">
     <div class="footer-top">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Instroview<span>.</span></h3>
+            <h3>Instroview<span> .</span></h3>
             <p>
                 10th Cross St,<br>
                 Thiruvalluvar Nagar,<br>
@@ -350,8 +505,6 @@
       </div>
     </div>
   </footer><!-- End Footer -->
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

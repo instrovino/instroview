@@ -2,9 +2,22 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --base-grid: 150px;
+  --colour-background: #fff;
+  --colour-background-folded: #f5f5f5;
+  --colour-text: #1a1a1a;
+}
+
+
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  background-color: rgba(0, 44, 126, 0.781);
+  font-family: Bitter;
+  padding-top: 0px;
+  margin-top: -150px;
+  margin: bottom auto;
+  padding: var(--base-grid);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -165,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.fixed-top {
-  height: 70px;
+  height: 55px;
 }
 
 #header .logo {
@@ -437,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 50vh;
+  height: 400px;
   background: url("../img/hero-bg.jpg") top left;
   background-size: cover;
   position: relative;
@@ -550,6 +563,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 120vh;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -2044,4 +2058,203 @@ i.icon-circle-small {
 }
 .l-five {
   width:25%;
+}
+
+
+
+/* slider section */
+.slider_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: calc(100% - 115px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../images/slider-bg.jpg);
+}
+
+.slider_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider_section .detail-box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slider_section .detail-box h1 {
+  
+  font-size: 4rem;
+  color: #031652;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.slider_section .detail-box h1 span {
+  color: #fc0909;
+}
+
+.slider_section .detail-box p {
+  margin-top: 25px;
+}
+
+.slider_section .detail-box .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.slider_section .detail-box .btn-box a {
+  width: 180px;
+  text-align: center;
+  margin: 5px;
+}
+
+.slider_section .detail-box .btn-box .btn-1 {
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: #031652;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+
+.slider_section .detail-box .btn-box .btn-1:hover {
+  background-color: transparent;
+  border-color: #031652;
+  color: #031652;
+}
+
+.slider_section .detail-box .btn-box .btn-2 {
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: #fc0909;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+
+.slider_section .detail-box .btn-box .btn-2:hover {
+  background-color: transparent;
+  border-color: #fc0909;
+  color: #fc0909;
+}
+
+.slider_section .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider_section .img-box img {
+  width: 100%;
+}
+
+.slider_section .idicator_container {
+  position: relative;
+}
+
+.slider_section ol.carousel-indicators {
+  margin: 0;
+  bottom: -75px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.slider_section ol.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: #fc0909;
+  opacity: 1;
+  border: none;
+  margin: 0 4px;
+}
+
+.slider_section ol.carousel-indicators li.active {
+  background-color: #031652;
+}
+
+
+.bg_white{
+  background-color: white;
+  margin-top: -60px
+}
+
+.container_img {
+  position: relative;
+  width: 25%;
+  padding-top: 20px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container_img:hover .overlay {
+  height: 100%;
+  width: 100%;
+  border: 1px solid darkblue;
+}
+
+.text {
+  color: rgb(39, 21, 73);
+  font-size: 16px;
+  position: absolute;
+  left: 10%;
+  text-align:left;
+  
+}
+
+.container_img ul {
+  list-style: none;
+  padding: 0;
+}
+.container_img li {
+  padding-left: 1.3em;
+}
+.container_img li:before {
+  content: "\f054"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  font-size: 16px;
+  display: inline-block;
+  color: rgb(41, 41, 141);
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.container_img .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(16, 20, 78, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width:93%; /* Full width */
+  text-align: center;
+  
 }
